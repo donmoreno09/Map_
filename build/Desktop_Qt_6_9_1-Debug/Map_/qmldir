@@ -1,0 +1,5 @@
+module Map_
+typeinfo appMap_.qmltypes
+prefer :/qt/qml/Map_/
+Main 1.0 Main.qml
+

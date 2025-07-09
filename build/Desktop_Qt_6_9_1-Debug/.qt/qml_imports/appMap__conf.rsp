@@ -1,0 +1,14 @@
+-rootPath
+/home/esis/Map_
+-cmake-output
+-output-file
+/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/qml_imports/appMap__conf.cmake
+-importPath
+/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_
+-importPath
+/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug
+-importPath
+/home/esis/Qt/6.9.1/gcc_64/qml
+-qrcFiles
+/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Map_.qrc
+/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0.qrc

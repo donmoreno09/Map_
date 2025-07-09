@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Map_">/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_</file>
+
+  </qresource>
+</RCC>

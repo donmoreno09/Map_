@@ -1,0 +1,10 @@
+--bare
+-I
+/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug
+-I
+/home/esis/Qt/6.9.1/gcc_64/qml
+--resource
+/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Map_.qrc
+--resource
+/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0.qrc
+/home/esis/Map_/Main.qml
