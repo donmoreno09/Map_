@@ -1,0 +1,52 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 183,
+                        "errorMessage": "",
+                        "functionName": "coordinate",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 78,
+                        "errorMessage": "Cannot access value for name mapRef",
+                        "functionName": "onClicked",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 33
+                    }
+                ],
+                "filePath": "/home/esis/Map_/components/PortMarker.qml"
+            }
+        ],
+        "moduleId": "Map_(appMap_)"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 289,
+                        "errorMessage": "",
+                        "functionName": "coordinate",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 82,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 100,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 187,
+                        "errorMessage": "Cannot access value for name mapRef",
+                        "functionName": "onClicked",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 60,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 36
+                    }
+                ],
+                "filePath": "/home/esis/Map_/components/ShipMarker.qml"
+            }
+        ],
+        "moduleId": "Map_(appMap_)"
+    }
+]

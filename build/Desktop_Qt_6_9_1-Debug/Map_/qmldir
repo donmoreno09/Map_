@@ -1,5 +1,11 @@
 module Map_
 typeinfo appMap_.qmltypes
 prefer :/qt/qml/Map_/
-Main 1.0 Main.qml
+Main 1.0 src/Main.qml
+PortMarker 1.0 components/PortMarker.qml
+ShipMarker 1.0 components/ShipMarker.qml
+Dialogs 1.0 components/Dialogs.qml
+Sidebar 1.0 components/Sidebar.qml
+PortModel 1.0 models/PortModel.qml
+ShipModel 1.0 models/ShipModel.qml
 

@@ -5,7 +5,49 @@
 #include <QtCore/qstring.h>
 
 namespace QmlCacheGeneratedCode {
-namespace _qt_qml_Map__Main_qml { 
+namespace _qt_qml_Map__src_Main_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_Map__components_PortMarker_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_Map__components_ShipMarker_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_Map__components_Dialogs_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_Map__components_Sidebar_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_Map__models_PortModel_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_Map__models_ShipModel_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -26,7 +68,13 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 
 Registry::Registry() {
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Map_/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_Map__Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Map_/src/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_Map__src_Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Map_/components/PortMarker.qml"), &QmlCacheGeneratedCode::_qt_qml_Map__components_PortMarker_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Map_/components/ShipMarker.qml"), &QmlCacheGeneratedCode::_qt_qml_Map__components_ShipMarker_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Map_/components/Dialogs.qml"), &QmlCacheGeneratedCode::_qt_qml_Map__components_Dialogs_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Map_/components/Sidebar.qml"), &QmlCacheGeneratedCode::_qt_qml_Map__components_Sidebar_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Map_/models/PortModel.qml"), &QmlCacheGeneratedCode::_qt_qml_Map__models_PortModel_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Map_/models/ShipModel.qml"), &QmlCacheGeneratedCode::_qt_qml_Map__models_ShipModel_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

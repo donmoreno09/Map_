@@ -1,0 +1,308 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "",
+                        "functionName": "plugin",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 114,
+                        "errorMessage": "",
+                        "functionName": "center",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 95,
+                        "errorMessage": "Type  does not have a property startCentroid for writing",
+                        "functionName": "onActiveChanged",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "onScaleChanged",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "",
+                        "functionName": "onScaleChanged",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "onRotationChanged",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 13,
+                        "errorMessage": "",
+                        "functionName": "onRotationChanged",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "grabPermissions",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 328,
+                        "errorMessage": "",
+                        "functionName": "acceptedDevices",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "rotationScale",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "onTranslationChanged",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "",
+                        "functionName": "onTranslationChanged",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 82,
+                        "errorMessage": "",
+                        "functionName": "enabled",
+                        "line": 63
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "sequence",
+                        "line": 64
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 149,
+                        "errorMessage": "",
+                        "functionName": "onActivated",
+                        "line": 65
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 80,
+                        "errorMessage": "",
+                        "functionName": "enabled",
+                        "line": 68
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "sequence",
+                        "line": 69
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 117,
+                        "errorMessage": "",
+                        "functionName": "onActivated",
+                        "line": 70
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "latitude",
+                        "line": 77
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "longitude",
+                        "line": 78
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "name",
+                        "line": 79
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot access value for name map",
+                        "functionName": "mapRef",
+                        "line": 80
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Cannot access value for name dialogs",
+                        "functionName": "dialogsRef",
+                        "line": 81
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "latitude",
+                        "line": 92
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "longitude",
+                        "line": 93
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "name",
+                        "line": 94
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "status",
+                        "line": 95
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "speed",
+                        "line": 96
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "destination",
+                        "line": 97
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Cannot access value for name map",
+                        "functionName": "mapRef",
+                        "line": 98
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Cannot access value for name dialogs",
+                        "functionName": "dialogsRef",
+                        "line": 99
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 112
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"left\".",
+                        "functionName": "left",
+                        "line": 108
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"top\".",
+                        "functionName": "top",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 14,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "map",
+                        "line": 118
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "shipInfoDialog",
+                        "line": 120
+                    }
+                ],
+                "filePath": "/home/esis/Map_/src/Main.qml"
+            }
+        ],
+        "moduleId": "Map_(appMap_)"
+    }
+]

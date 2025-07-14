@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file>src/Main.qml</file>
+        <file>components/Dialogs.qml</file>
+        <file>components/Sidebar.qml</file>
+        <file>components/PortMarker.qml</file>
+        <file>components/ShipMarker.qml</file>
+        <file>models/PortModel.qml</file>
+        <file>models/ShipModel.qml</file>
+    </qresource>
+</RCC>

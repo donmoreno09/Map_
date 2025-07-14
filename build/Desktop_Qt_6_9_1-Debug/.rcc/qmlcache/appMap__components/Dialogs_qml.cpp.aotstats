@@ -1,0 +1,100 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "openShipInfo",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "openPortInfo",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"closePolicy\".",
+                        "functionName": "closePolicy",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "width",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot access value for name shipInfoDialog",
+                        "functionName": "text",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Cannot access value for name shipInfoDialog",
+                        "functionName": "text",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot access value for name shipInfoDialog",
+                        "functionName": "text",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Cannot access value for name shipInfoDialog",
+                        "functionName": "text",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"closePolicy\".",
+                        "functionName": "closePolicy",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 5,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "width",
+                        "line": 71
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Cannot access value for name portInfoDialog",
+                        "functionName": "text",
+                        "line": 79
+                    }
+                ],
+                "filePath": "/home/esis/Map_/components/Dialogs.qml"
+            }
+        ],
+        "moduleId": "Map_(appMap_)"
+    }
+]

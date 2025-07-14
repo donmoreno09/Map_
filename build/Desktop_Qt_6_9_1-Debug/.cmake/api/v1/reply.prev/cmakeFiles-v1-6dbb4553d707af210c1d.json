@@ -5594,7 +5594,18 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "/home/esis/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/esis/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isExternal" : true,
 			"path" : "/home/esis/Qt/6.9.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "resources.qrc"
 		},
 		{
 			"isCMake" : true,

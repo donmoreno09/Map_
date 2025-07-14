@@ -1,6 +1,8 @@
 <RCC>
   <qresource prefix="/qt/qml/Map_/">
-    <file alias="qml/screens/qmldir">/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/qml/screens/qmldir</file>
+    <file alias="src/qmldir">/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/src/qmldir</file>
+    <file alias="components/qmldir">/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/components/qmldir</file>
+    <file alias="models/qmldir">/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/models/qmldir</file>
   </qresource>
 </RCC>
 

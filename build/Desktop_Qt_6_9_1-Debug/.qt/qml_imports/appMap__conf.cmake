@@ -1,4 +1,4 @@
-set(qml_import_scanner_imports_count 31)
+set(qml_import_scanner_imports_count 35)
 set(qml_import_scanner_import_0 "CLASSNAME;QtQuick2Plugin;LINKTARGET;Qt6::qtquick2plugin;NAME;QtQuick;PATH;/home/esis/Qt/6.9.1/gcc_64/qml/QtQuick;PLUGIN;qtquick2plugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/;RELATIVEPATH;QtQuick;TYPE;module;")
 set(qml_import_scanner_import_1 "CLASSNAME;QtQmlPlugin;LINKTARGET;Qt6::qmlplugin;NAME;QtQml;PATH;/home/esis/Qt/6.9.1/gcc_64/qml/QtQml;PLUGIN;qmlplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQml/;RELATIVEPATH;QtQml;TYPE;module;")
 set(qml_import_scanner_import_2 "NAME;QML;PATH;/home/esis/Qt/6.9.1/gcc_64/qml/QML;PREFER;:/qt-project.org/imports/QML/;RELATIVEPATH;QML;TYPE;module;")
@@ -30,4 +30,8 @@ set(qml_import_scanner_import_27 "CLASSNAME;QtQmlLabsModelsPlugin;LINKTARGET;Qt6
 set(qml_import_scanner_import_28 "CLASSNAME;QtLocationDeclarativeModule;COMPONENTS;/home/esis/Qt/6.9.1/gcc_64/qml/QtLocation/MapView.qml;LINKTARGET;Qt6::declarative_location;NAME;QtLocation;PATH;/home/esis/Qt/6.9.1/gcc_64/qml/QtLocation;PLUGIN;declarative_locationplugin;PREFER;:/qt-project.org/imports/QtLocation/;RELATIVEPATH;QtLocation;TYPE;module;")
 set(qml_import_scanner_import_29 "CLASSNAME;QtPositioningDeclarativeModule;LINKTARGET;Qt6::positioningquickplugin;NAME;QtPositioning;PATH;/home/esis/Qt/6.9.1/gcc_64/qml/QtPositioning;PLUGIN;positioningquickplugin;PREFER;:/qt-project.org/imports/QtPositioning/;RELATIVEPATH;QtPositioning;TYPE;module;")
 set(qml_import_scanner_import_30 "CLASSNAME;QtLabsAnimationPlugin;LINKTARGET;Qt6::labsanimationplugin;NAME;Qt.labs.animation;PATH;/home/esis/Qt/6.9.1/gcc_64/qml/Qt/labs/animation;PLUGIN;labsanimationplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/Qt/labs/animation/;RELATIVEPATH;Qt/labs/animation;TYPE;module;")
+set(qml_import_scanner_import_31 "NAME;../components;PATH;/home/esis/Map_/components;TYPE;directory;")
+set(qml_import_scanner_import_32 "NAME;../models;PATH;/home/esis/Map_/models;TYPE;directory;")
+set(qml_import_scanner_import_33 "NAME;../components;PATH;/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/components;TYPE;directory;")
+set(qml_import_scanner_import_34 "NAME;../models;PATH;/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/models;TYPE;directory;")
 

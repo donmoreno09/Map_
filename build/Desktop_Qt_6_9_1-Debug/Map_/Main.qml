@@ -194,4 +194,89 @@ Window {
         property int currentIndex: -1
     }
 
+    Drawer {
+            id: sidebar
+            width: 240
+            edge: Qt.LeftEdge
+            visible: true
+
+            Column {
+                spacing: 10
+                padding: 10
+
+                Text {
+                    text: "Ship Dashboard"
+                    font.pixelSize: 16
+                    font.bold: true
+                }
+
+                ComboBox {
+                    id: filterComboBox
+                    model: ["All", "En Route", "Arrived", "Delayed"]
+                    currentIndex: 0
+                    onCurrentIndexChanged: {
+                        shipListView.model = filterShips(filterComboBox.currentText);
+                    }
+                }
+
+                ListView {
+                    id: shipListView
+                    width: parent.width
+                    height: parent.height
+                    model: shipModel
+                    delegate: Rectangle {
+                        width: parent.width
+                        height: 60
+                        color: "lightgray"
+                        border.color: "gray"
+                        radius: 5
+
+                        Row {
+                            spacing: 10
+                            anchors.fill: parent
+                            anchors.margins: 5
+
+                            Text {
+                                text: model.name
+                                font.pixelSize: 14
+                                font.bold: true
+                            }
+                            Text {
+                                text: "Status: " + model.status
+                                font.pixelSize: 12
+                            }
+                            Text {
+                                text: "Destination: " + model.destination
+                                font.pixelSize: 12
+                            }
+                        }
+
+                        MouseArea {
+                            anchors.fill: parent
+                            cursorShape: Qt.PointingHandCursor
+                            onClicked: {
+                                map.center = QtPositioning.coordinate(model.latitude, model.longitude);
+                                sidebar.visible = false;  // Hide the sidebar after selecting the ship
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Function to filter ships based on status
+        function filterShips(status) {
+            if (status === "All") {
+                return shipModel;  // Show all ships
+            }
+
+            var filteredModel = Qt.createQmlObject('import QtQuick 2.0; ListModel {}', sidebar);
+            for (var i = 0; i < shipModel.count; i++) {
+                var ship = shipModel.get(i);
+                if (ship.status === status) {
+                    filteredModel.append(ship);
+                }
+            }
+            return filteredModel;
+        }
 }

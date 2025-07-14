@@ -67,7 +67,13 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
 			]
 		}
 	],
@@ -100,7 +106,43 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__Main_qml.cpp.rule",
+			"path" : "build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/Dialogs_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/PortMarker_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/ShipMarker_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/Sidebar_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models/PortModel_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models/ShipModel_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__src/Main_qml.cpp.rule",
 			"sourceGroupIndex" : 1
 		},
 		{

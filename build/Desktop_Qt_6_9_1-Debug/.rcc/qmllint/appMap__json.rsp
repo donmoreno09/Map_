@@ -7,6 +7,14 @@
 /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Map_.qrc
 --resource
 /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0.qrc
-/home/esis/Map_/Main.qml
+--resource
+/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc
+/home/esis/Map_/src/Main.qml
+/home/esis/Map_/components/PortMarker.qml
+/home/esis/Map_/components/ShipMarker.qml
+/home/esis/Map_/components/Dialogs.qml
+/home/esis/Map_/components/Sidebar.qml
+/home/esis/Map_/models/PortModel.qml
+/home/esis/Map_/models/ShipModel.qml
 --json
 /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/appMap__qmllint.json

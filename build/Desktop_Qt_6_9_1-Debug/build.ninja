@@ -47,7 +47,7 @@ cmake_ninja_workdir = /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/
 #############################################
 # Order-only phony target for appMap_
 
-build cmake_object_order_depends_target_appMap_: phony || .qt/rcc/qrc_appMap__raw_qml_0.cpp .qt/rcc/qrc_qmake_Map_.cpp .rcc/qmlcache/appMap__Main_qml.cpp .rcc/qmlcache/appMap__Main_qml.cpp.aotstats .rcc/qmlcache/appMap__qmlcache_loader.cpp Map_/appMap_.qmltypes appMap__autogen appMap__autogen/mocs_compilation.cpp appMap__autogen/timestamp appMap__autogen_timestamp_deps appMap__copy_qml appMap__copy_res appMap__qmlimportscan appmap__qmltyperegistrations.cpp meta_types/appMap__json_file_list.txt meta_types/appMap__json_file_list.txt.timestamp meta_types/qt6appmap__debug_metatypes.json meta_types/qt6appmap__debug_metatypes.json.gen
+build cmake_object_order_depends_target_appMap_: phony || .qt/rcc/qrc_appMap__raw_qml_0.cpp .qt/rcc/qrc_appMap__raw_qml_0_extra_qmldirs.cpp .qt/rcc/qrc_qmake_Map_.cpp .rcc/qmlcache/appMap__components/Dialogs_qml.cpp .rcc/qmlcache/appMap__components/Dialogs_qml.cpp.aotstats .rcc/qmlcache/appMap__components/PortMarker_qml.cpp .rcc/qmlcache/appMap__components/PortMarker_qml.cpp.aotstats .rcc/qmlcache/appMap__components/ShipMarker_qml.cpp .rcc/qmlcache/appMap__components/ShipMarker_qml.cpp.aotstats .rcc/qmlcache/appMap__components/Sidebar_qml.cpp .rcc/qmlcache/appMap__components/Sidebar_qml.cpp.aotstats .rcc/qmlcache/appMap__models/PortModel_qml.cpp .rcc/qmlcache/appMap__models/PortModel_qml.cpp.aotstats .rcc/qmlcache/appMap__models/ShipModel_qml.cpp .rcc/qmlcache/appMap__models/ShipModel_qml.cpp.aotstats .rcc/qmlcache/appMap__qmlcache_loader.cpp .rcc/qmlcache/appMap__src/Main_qml.cpp .rcc/qmlcache/appMap__src/Main_qml.cpp.aotstats Map_/appMap_.qmltypes appMap__autogen appMap__autogen/mocs_compilation.cpp appMap__autogen/timestamp appMap__autogen_timestamp_deps appMap__copy_qml appMap__copy_res appMap__qmlimportscan appmap__qmltyperegistrations.cpp meta_types/appMap__json_file_list.txt meta_types/appMap__json_file_list.txt.timestamp meta_types/qt6appmap__debug_metatypes.json meta_types/qt6appmap__debug_metatypes.json.gen
 
 build CMakeFiles/appMap_.dir/appMap__autogen/mocs_compilation.cpp.o: CXX_COMPILER__appMap__unscanned_Debug /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/appMap__autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appMap_
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
@@ -89,17 +89,73 @@ build CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__
   OBJECT_DIR = CMakeFiles/appMap_.dir
   OBJECT_FILE_DIR = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache
 
-build CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__Main_qml.cpp.o: CXX_COMPILER__appMap__unscanned_Debug /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__Main_qml.cpp || cmake_object_order_depends_target_appMap_
+build CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__src/Main_qml.cpp.o: CXX_COMPILER__appMap__unscanned_Debug /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__src/Main_qml.cpp || cmake_object_order_depends_target_appMap_
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__Main_qml.cpp.o.d
+  DEP_FILE = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__src/Main_qml.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/appMap__autogen/include -I/home/esis/Map_ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include -isystem /home/esis/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlIntegration -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtNetwork -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQuick -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlMeta -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlModels -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlWorkerScript -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles/appMap_.dir
-  OBJECT_FILE_DIR = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache
+  OBJECT_FILE_DIR = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__src
+
+build CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/PortMarker_qml.cpp.o: CXX_COMPILER__appMap__unscanned_Debug /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/PortMarker_qml.cpp || cmake_object_order_depends_target_appMap_
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/PortMarker_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/appMap__autogen/include -I/home/esis/Map_ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include -isystem /home/esis/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlIntegration -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtNetwork -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQuick -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlMeta -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlModels -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlWorkerScript -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appMap_.dir
+  OBJECT_FILE_DIR = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components
+
+build CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/ShipMarker_qml.cpp.o: CXX_COMPILER__appMap__unscanned_Debug /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/ShipMarker_qml.cpp || cmake_object_order_depends_target_appMap_
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/ShipMarker_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/appMap__autogen/include -I/home/esis/Map_ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include -isystem /home/esis/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlIntegration -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtNetwork -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQuick -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlMeta -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlModels -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlWorkerScript -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appMap_.dir
+  OBJECT_FILE_DIR = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components
+
+build CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/Dialogs_qml.cpp.o: CXX_COMPILER__appMap__unscanned_Debug /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/Dialogs_qml.cpp || cmake_object_order_depends_target_appMap_
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/Dialogs_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/appMap__autogen/include -I/home/esis/Map_ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include -isystem /home/esis/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlIntegration -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtNetwork -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQuick -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlMeta -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlModels -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlWorkerScript -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appMap_.dir
+  OBJECT_FILE_DIR = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components
+
+build CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/Sidebar_qml.cpp.o: CXX_COMPILER__appMap__unscanned_Debug /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/Sidebar_qml.cpp || cmake_object_order_depends_target_appMap_
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/Sidebar_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/appMap__autogen/include -I/home/esis/Map_ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include -isystem /home/esis/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlIntegration -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtNetwork -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQuick -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlMeta -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlModels -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlWorkerScript -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appMap_.dir
+  OBJECT_FILE_DIR = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components
+
+build CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models/PortModel_qml.cpp.o: CXX_COMPILER__appMap__unscanned_Debug /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models/PortModel_qml.cpp || cmake_object_order_depends_target_appMap_
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models/PortModel_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/appMap__autogen/include -I/home/esis/Map_ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include -isystem /home/esis/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlIntegration -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtNetwork -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQuick -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlMeta -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlModels -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlWorkerScript -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appMap_.dir
+  OBJECT_FILE_DIR = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models
+
+build CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models/ShipModel_qml.cpp.o: CXX_COMPILER__appMap__unscanned_Debug /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models/ShipModel_qml.cpp || cmake_object_order_depends_target_appMap_
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models/ShipModel_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/appMap__autogen/include -I/home/esis/Map_ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include -isystem /home/esis/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlIntegration -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtNetwork -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQuick -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlMeta -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlModels -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlWorkerScript -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appMap_.dir
+  OBJECT_FILE_DIR = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models
 
 build CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_appMap__raw_qml_0.cpp.o: CXX_COMPILER__appMap__unscanned_Debug /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_appMap__raw_qml_0.cpp || cmake_object_order_depends_target_appMap_
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_appMap__raw_qml_0.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/appMap__autogen/include -I/home/esis/Map_ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include -isystem /home/esis/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlIntegration -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtNetwork -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQuick -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlMeta -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlModels -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlWorkerScript -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appMap_.dir
+  OBJECT_FILE_DIR = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.qt/rcc
+
+build CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_appMap__raw_qml_0_extra_qmldirs.cpp.o: CXX_COMPILER__appMap__unscanned_Debug /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_appMap__raw_qml_0_extra_qmldirs.cpp || cmake_object_order_depends_target_appMap_
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_appMap__raw_qml_0_extra_qmldirs.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/appMap__autogen/include -I/home/esis/Map_ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml/6.9.1/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1 -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore/6.9.1/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/esis/Qt/6.9.1/gcc_64/include -isystem /home/esis/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQml -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlIntegration -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtNetwork -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQuick -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtGui -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlMeta -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlModels -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtQmlWorkerScript -isystem /home/esis/Qt/6.9.1/gcc_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles/appMap_.dir
@@ -113,7 +169,7 @@ build CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_appMap__ra
 #############################################
 # Link the executable appMap_
 
-build appMap_: CXX_EXECUTABLE_LINKER__appMap__Debug CMakeFiles/appMap_.dir/appMap__autogen/mocs_compilation.cpp.o CMakeFiles/appMap_.dir/main.cpp.o CMakeFiles/appMap_.dir/appmap__qmltyperegistrations.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_qmake_Map_.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__qmlcache_loader.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__Main_qml.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_appMap__raw_qml_0.cpp.o | /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Quick.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6QmlMeta.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6QmlWorkerScript.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6QmlModels.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Qml.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Network.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6OpenGL.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1 || appMap__autogen appMap__autogen_timestamp_deps appMap__copy_qml appMap__copy_res appMap__qmlimportscan
+build appMap_: CXX_EXECUTABLE_LINKER__appMap__Debug CMakeFiles/appMap_.dir/appMap__autogen/mocs_compilation.cpp.o CMakeFiles/appMap_.dir/main.cpp.o CMakeFiles/appMap_.dir/appmap__qmltyperegistrations.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_qmake_Map_.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__qmlcache_loader.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__src/Main_qml.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/PortMarker_qml.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/ShipMarker_qml.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/Dialogs_qml.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/Sidebar_qml.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models/PortModel_qml.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models/ShipModel_qml.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_appMap__raw_qml_0.cpp.o CMakeFiles/appMap_.dir/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_appMap__raw_qml_0_extra_qmldirs.cpp.o | /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Quick.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6QmlMeta.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6QmlWorkerScript.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6QmlModels.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Qml.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Network.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6OpenGL.so.6.9.1 /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1 || appMap__autogen appMap__autogen_timestamp_deps appMap__copy_qml appMap__copy_res appMap__qmlimportscan
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/esis/Qt/6.9.1/gcc_64/lib:  /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Quick.so.6.9.1  /home/esis/Qt/6.9.1/gcc_64/lib/libQt6QmlMeta.so.6.9.1  /home/esis/Qt/6.9.1/gcc_64/lib/libQt6QmlWorkerScript.so.6.9.1  /home/esis/Qt/6.9.1/gcc_64/lib/libQt6QmlModels.so.6.9.1  /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Qml.so.6.9.1  /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Network.so.6.9.1  /home/esis/Qt/6.9.1/gcc_64/lib/libQt6OpenGL.so.6.9.1  /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /home/esis/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1  -Wl,-rpath-link,/home/esis/Qt/6.9.1/gcc_64/lib
   OBJECT_DIR = CMakeFiles/appMap_.dir
@@ -186,13 +242,13 @@ build appMap__copy_res: phony CMakeFiles/appMap__copy_res .qt/appMap__res.txt
 #############################################
 # Utility command for module_appMap__aotstats_target
 
-build module_appMap__aotstats_target: phony CMakeFiles/module_appMap__aotstats_target .rcc/qmlcache/module_appMap_.aotstats .rcc/qmlcache/appMap__Main_qml.cpp .rcc/qmlcache/appMap__Main_qml.cpp.aotstats appmap__qmltyperegistrations.cpp Map_/appMap_.qmltypes appMap__qmltyperegistration
+build module_appMap__aotstats_target: phony CMakeFiles/module_appMap__aotstats_target .rcc/qmlcache/module_appMap_.aotstats .rcc/qmlcache/appMap__components/Dialogs_qml.cpp .rcc/qmlcache/appMap__components/Dialogs_qml.cpp.aotstats .rcc/qmlcache/appMap__components/PortMarker_qml.cpp .rcc/qmlcache/appMap__components/PortMarker_qml.cpp.aotstats .rcc/qmlcache/appMap__components/ShipMarker_qml.cpp .rcc/qmlcache/appMap__components/ShipMarker_qml.cpp.aotstats .rcc/qmlcache/appMap__components/Sidebar_qml.cpp .rcc/qmlcache/appMap__components/Sidebar_qml.cpp.aotstats .rcc/qmlcache/appMap__models/PortModel_qml.cpp .rcc/qmlcache/appMap__models/PortModel_qml.cpp.aotstats .rcc/qmlcache/appMap__models/ShipModel_qml.cpp .rcc/qmlcache/appMap__models/ShipModel_qml.cpp.aotstats .rcc/qmlcache/appMap__src/Main_qml.cpp .rcc/qmlcache/appMap__src/Main_qml.cpp.aotstats appmap__qmltyperegistrations.cpp Map_/appMap_.qmltypes appMap__qmltyperegistration
 
 
 #############################################
 # Utility command for all_aotstats
 
-build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt .rcc/qmlcache/module_appMap_.aotstats .rcc/qmlcache/appMap__Main_qml.cpp .rcc/qmlcache/appMap__Main_qml.cpp.aotstats appmap__qmltyperegistrations.cpp Map_/appMap_.qmltypes module_appMap__aotstats_target
+build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt .rcc/qmlcache/module_appMap_.aotstats .rcc/qmlcache/appMap__components/Dialogs_qml.cpp .rcc/qmlcache/appMap__components/Dialogs_qml.cpp.aotstats .rcc/qmlcache/appMap__components/PortMarker_qml.cpp .rcc/qmlcache/appMap__components/PortMarker_qml.cpp.aotstats .rcc/qmlcache/appMap__components/ShipMarker_qml.cpp .rcc/qmlcache/appMap__components/ShipMarker_qml.cpp.aotstats .rcc/qmlcache/appMap__components/Sidebar_qml.cpp .rcc/qmlcache/appMap__components/Sidebar_qml.cpp.aotstats .rcc/qmlcache/appMap__models/PortModel_qml.cpp .rcc/qmlcache/appMap__models/PortModel_qml.cpp.aotstats .rcc/qmlcache/appMap__models/ShipModel_qml.cpp .rcc/qmlcache/appMap__models/ShipModel_qml.cpp.aotstats .rcc/qmlcache/appMap__src/Main_qml.cpp .rcc/qmlcache/appMap__src/Main_qml.cpp.aotstats appmap__qmltyperegistrations.cpp Map_/appMap_.qmltypes module_appMap__aotstats_target
 
 
 #############################################
@@ -309,27 +365,90 @@ build .qt/rcc/qrc_qmake_Map_.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_qmake_Map_.
 #############################################
 # Custom command for .rcc/qmlcache/appMap__qmlcache_loader.cpp
 
-build .rcc/qmlcache/appMap__qmlcache_loader.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appMap__qmlcache_loader.cpp: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen .rcc/qmlcache/appMap__qml_loader_file_list.rsp .qt/rcc/qmake_Map_.qrc .qt/rcc/appMap__raw_qml_0.qrc || appMap__autogen appMap__autogen_timestamp_deps appMap__copy_qml appMap__copy_res appMap__qmlimportscan
+build .rcc/qmlcache/appMap__qmlcache_loader.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appMap__qmlcache_loader.cpp: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen .rcc/qmlcache/appMap__qml_loader_file_list.rsp .qt/rcc/qmake_Map_.qrc .qt/rcc/appMap__raw_qml_0.qrc .qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc || appMap__autogen appMap__autogen_timestamp_deps appMap__copy_qml appMap__copy_res appMap__qmlimportscan
   COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen --resource-name qmlcache_appMap_ -o /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__qmlcache_loader.cpp @/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__qml_loader_file_list.rsp
   DESC = Generating .rcc/qmlcache/appMap__qmlcache_loader.cpp
   restat = 1
 
 
 #############################################
-# Custom command for .rcc/qmlcache/appMap__Main_qml.cpp
+# Custom command for .rcc/qmlcache/appMap__src/Main_qml.cpp
 
-build .rcc/qmlcache/appMap__Main_qml.cpp .rcc/qmlcache/appMap__Main_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appMap__Main_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appMap__Main_qml.cpp.aotstats: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen /home/esis/Map_/Main.qml .qt/rcc/qmake_Map_.qrc .qt/rcc/appMap__raw_qml_0.qrc Map_/appMap_.qmltypes Map_/qmldir
-  COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/Tools/CMake/bin/cmake -E make_directory /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache && /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen --bare --resource-path /qt/qml/Map_/Main.qml -I /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug -I /home/esis/Qt/6.9.1/gcc_64/qml -i /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/qmldir --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Map_.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0.qrc --dump-aot-stats "--module-id=Map_(appMap_)" -o /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__Main_qml.cpp /home/esis/Map_/Main.qml
-  DESC = Generating .rcc/qmlcache/appMap__Main_qml.cpp, .rcc/qmlcache/appMap__Main_qml.cpp.aotstats
+build .rcc/qmlcache/appMap__src/Main_qml.cpp .rcc/qmlcache/appMap__src/Main_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appMap__src/Main_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appMap__src/Main_qml.cpp.aotstats: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen /home/esis/Map_/src/Main.qml .qt/rcc/qmake_Map_.qrc .qt/rcc/appMap__raw_qml_0.qrc .qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc Map_/appMap_.qmltypes Map_/qmldir
+  COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/Tools/CMake/bin/cmake -E make_directory /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__src && /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen --bare --resource-path /qt/qml/Map_/src/Main.qml -I /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug -I /home/esis/Qt/6.9.1/gcc_64/qml -i /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/qmldir --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Map_.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Map_(appMap_)" -o /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__src/Main_qml.cpp /home/esis/Map_/src/Main.qml
+  DESC = Generating .rcc/qmlcache/appMap__src/Main_qml.cpp, .rcc/qmlcache/appMap__src/Main_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc/qmlcache/appMap__components/PortMarker_qml.cpp
+
+build .rcc/qmlcache/appMap__components/PortMarker_qml.cpp .rcc/qmlcache/appMap__components/PortMarker_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appMap__components/PortMarker_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appMap__components/PortMarker_qml.cpp.aotstats: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen /home/esis/Map_/components/PortMarker.qml .qt/rcc/qmake_Map_.qrc .qt/rcc/appMap__raw_qml_0.qrc .qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc Map_/appMap_.qmltypes Map_/qmldir
+  COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/Tools/CMake/bin/cmake -E make_directory /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components && /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen --bare --resource-path /qt/qml/Map_/components/PortMarker.qml -I /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug -I /home/esis/Qt/6.9.1/gcc_64/qml -i /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/qmldir --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Map_.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Map_(appMap_)" -o /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/PortMarker_qml.cpp /home/esis/Map_/components/PortMarker.qml
+  DESC = Generating .rcc/qmlcache/appMap__components/PortMarker_qml.cpp, .rcc/qmlcache/appMap__components/PortMarker_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc/qmlcache/appMap__components/ShipMarker_qml.cpp
+
+build .rcc/qmlcache/appMap__components/ShipMarker_qml.cpp .rcc/qmlcache/appMap__components/ShipMarker_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appMap__components/ShipMarker_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appMap__components/ShipMarker_qml.cpp.aotstats: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen /home/esis/Map_/components/ShipMarker.qml .qt/rcc/qmake_Map_.qrc .qt/rcc/appMap__raw_qml_0.qrc .qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc Map_/appMap_.qmltypes Map_/qmldir
+  COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/Tools/CMake/bin/cmake -E make_directory /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components && /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen --bare --resource-path /qt/qml/Map_/components/ShipMarker.qml -I /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug -I /home/esis/Qt/6.9.1/gcc_64/qml -i /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/qmldir --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Map_.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Map_(appMap_)" -o /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/ShipMarker_qml.cpp /home/esis/Map_/components/ShipMarker.qml
+  DESC = Generating .rcc/qmlcache/appMap__components/ShipMarker_qml.cpp, .rcc/qmlcache/appMap__components/ShipMarker_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc/qmlcache/appMap__components/Dialogs_qml.cpp
+
+build .rcc/qmlcache/appMap__components/Dialogs_qml.cpp .rcc/qmlcache/appMap__components/Dialogs_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appMap__components/Dialogs_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appMap__components/Dialogs_qml.cpp.aotstats: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen /home/esis/Map_/components/Dialogs.qml .qt/rcc/qmake_Map_.qrc .qt/rcc/appMap__raw_qml_0.qrc .qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc Map_/appMap_.qmltypes Map_/qmldir
+  COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/Tools/CMake/bin/cmake -E make_directory /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components && /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen --bare --resource-path /qt/qml/Map_/components/Dialogs.qml -I /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug -I /home/esis/Qt/6.9.1/gcc_64/qml -i /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/qmldir --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Map_.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Map_(appMap_)" -o /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/Dialogs_qml.cpp /home/esis/Map_/components/Dialogs.qml
+  DESC = Generating .rcc/qmlcache/appMap__components/Dialogs_qml.cpp, .rcc/qmlcache/appMap__components/Dialogs_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc/qmlcache/appMap__components/Sidebar_qml.cpp
+
+build .rcc/qmlcache/appMap__components/Sidebar_qml.cpp .rcc/qmlcache/appMap__components/Sidebar_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appMap__components/Sidebar_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appMap__components/Sidebar_qml.cpp.aotstats: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen /home/esis/Map_/components/Sidebar.qml .qt/rcc/qmake_Map_.qrc .qt/rcc/appMap__raw_qml_0.qrc .qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc Map_/appMap_.qmltypes Map_/qmldir
+  COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/Tools/CMake/bin/cmake -E make_directory /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components && /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen --bare --resource-path /qt/qml/Map_/components/Sidebar.qml -I /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug -I /home/esis/Qt/6.9.1/gcc_64/qml -i /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/qmldir --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Map_.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Map_(appMap_)" -o /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__components/Sidebar_qml.cpp /home/esis/Map_/components/Sidebar.qml
+  DESC = Generating .rcc/qmlcache/appMap__components/Sidebar_qml.cpp, .rcc/qmlcache/appMap__components/Sidebar_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc/qmlcache/appMap__models/PortModel_qml.cpp
+
+build .rcc/qmlcache/appMap__models/PortModel_qml.cpp .rcc/qmlcache/appMap__models/PortModel_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appMap__models/PortModel_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appMap__models/PortModel_qml.cpp.aotstats: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen /home/esis/Map_/models/PortModel.qml .qt/rcc/qmake_Map_.qrc .qt/rcc/appMap__raw_qml_0.qrc .qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc Map_/appMap_.qmltypes Map_/qmldir
+  COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/Tools/CMake/bin/cmake -E make_directory /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models && /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen --bare --resource-path /qt/qml/Map_/models/PortModel.qml -I /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug -I /home/esis/Qt/6.9.1/gcc_64/qml -i /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/qmldir --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Map_.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Map_(appMap_)" -o /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models/PortModel_qml.cpp /home/esis/Map_/models/PortModel.qml
+  DESC = Generating .rcc/qmlcache/appMap__models/PortModel_qml.cpp, .rcc/qmlcache/appMap__models/PortModel_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc/qmlcache/appMap__models/ShipModel_qml.cpp
+
+build .rcc/qmlcache/appMap__models/ShipModel_qml.cpp .rcc/qmlcache/appMap__models/ShipModel_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appMap__models/ShipModel_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appMap__models/ShipModel_qml.cpp.aotstats: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen /home/esis/Map_/models/ShipModel.qml .qt/rcc/qmake_Map_.qrc .qt/rcc/appMap__raw_qml_0.qrc .qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc Map_/appMap_.qmltypes Map_/qmldir
+  COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/Tools/CMake/bin/cmake -E make_directory /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models && /home/esis/Qt/6.9.1/gcc_64/libexec/qmlcachegen --bare --resource-path /qt/qml/Map_/models/ShipModel.qml -I /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug -I /home/esis/Qt/6.9.1/gcc_64/qml -i /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/Map_/qmldir --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_Map_.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0.qrc --resource /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=Map_(appMap_)" -o /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/appMap__models/ShipModel_qml.cpp /home/esis/Map_/models/ShipModel.qml
+  DESC = Generating .rcc/qmlcache/appMap__models/ShipModel_qml.cpp, .rcc/qmlcache/appMap__models/ShipModel_qml.cpp.aotstats
   restat = 1
 
 
 #############################################
 # Custom command for .qt/rcc/qrc_appMap__raw_qml_0.cpp
 
-build .qt/rcc/qrc_appMap__raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appMap__raw_qml_0.cpp: CUSTOM_COMMAND /home/esis/Map_/Main.qml .qt/rcc/appMap__raw_qml_0.qrc /home/esis/Qt/6.9.1/gcc_64/libexec/rcc || appMap__autogen appMap__autogen_timestamp_deps appMap__copy_qml appMap__copy_res appMap__qmlimportscan
+build .qt/rcc/qrc_appMap__raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appMap__raw_qml_0.cpp: CUSTOM_COMMAND /home/esis/Map_/src/Main.qml /home/esis/Map_/components/PortMarker.qml /home/esis/Map_/components/ShipMarker.qml /home/esis/Map_/components/Dialogs.qml /home/esis/Map_/components/Sidebar.qml /home/esis/Map_/models/PortModel.qml /home/esis/Map_/models/ShipModel.qml .qt/rcc/appMap__raw_qml_0.qrc /home/esis/Qt/6.9.1/gcc_64/libexec/rcc || appMap__autogen appMap__autogen_timestamp_deps appMap__copy_qml appMap__copy_res appMap__qmlimportscan
   COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/6.9.1/gcc_64/libexec/rcc --output /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_appMap__raw_qml_0.cpp --name appMap__raw_qml_0 /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0.qrc
   DESC = Running rcc for resource appMap__raw_qml_0
+  restat = 1
+
+
+#############################################
+# Custom command for .qt/rcc/qrc_appMap__raw_qml_0_extra_qmldirs.cpp
+
+build .qt/rcc/qrc_appMap__raw_qml_0_extra_qmldirs.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appMap__raw_qml_0_extra_qmldirs.cpp: CUSTOM_COMMAND Map_/src/qmldir Map_/components/qmldir Map_/models/qmldir .qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc /home/esis/Qt/6.9.1/gcc_64/libexec/rcc || appMap__autogen appMap__autogen_timestamp_deps appMap__copy_qml appMap__copy_res appMap__qmlimportscan
+  COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/6.9.1/gcc_64/libexec/rcc --output /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qrc_appMap__raw_qml_0_extra_qmldirs.cpp --name appMap__raw_qml_0_extra_qmldirs /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc
+  DESC = Running rcc for resource appMap__raw_qml_0_extra_qmldirs
   restat = 1
 
 
@@ -362,21 +481,21 @@ build CMakeFiles/appMap__qmltyperegistration | ${cmake_ninja_workdir}CMakeFiles/
 #############################################
 # Custom command for CMakeFiles/appMap__qmllint
 
-build CMakeFiles/appMap__qmllint | ${cmake_ninja_workdir}CMakeFiles/appMap__qmllint: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/bin/qmllint /home/esis/Map_/Main.qml .rcc/qmllint/appMap_.rsp || all_qmltyperegistrations appMap__qmltyperegistration
+build CMakeFiles/appMap__qmllint | ${cmake_ninja_workdir}CMakeFiles/appMap__qmllint: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/bin/qmllint /home/esis/Map_/src/Main.qml /home/esis/Map_/components/PortMarker.qml /home/esis/Map_/components/ShipMarker.qml /home/esis/Map_/components/Dialogs.qml /home/esis/Map_/components/Sidebar.qml /home/esis/Map_/models/PortModel.qml /home/esis/Map_/models/ShipModel.qml .rcc/qmllint/appMap_.rsp || all_qmltyperegistrations appMap__qmltyperegistration
   COMMAND = cd /home/esis/Map_ && /home/esis/Qt/6.9.1/gcc_64/bin/qmllint @/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmllint/appMap_.rsp
 
 
 #############################################
 # Custom command for CMakeFiles/appMap__qmllint_json
 
-build CMakeFiles/appMap__qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appMap__qmllint_json: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/bin/qmllint /home/esis/Map_/Main.qml .rcc/qmllint/appMap__json.rsp || all_qmltyperegistrations appMap__qmltyperegistration
+build CMakeFiles/appMap__qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appMap__qmllint_json: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/bin/qmllint /home/esis/Map_/src/Main.qml /home/esis/Map_/components/PortMarker.qml /home/esis/Map_/components/ShipMarker.qml /home/esis/Map_/components/Dialogs.qml /home/esis/Map_/components/Sidebar.qml /home/esis/Map_/models/PortModel.qml /home/esis/Map_/models/ShipModel.qml .rcc/qmllint/appMap__json.rsp || all_qmltyperegistrations appMap__qmltyperegistration
   COMMAND = cd /home/esis/Map_ && /home/esis/Qt/6.9.1/gcc_64/bin/qmllint @/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmllint/appMap__json.rsp
 
 
 #############################################
 # Custom command for CMakeFiles/appMap__qmllint_module
 
-build CMakeFiles/appMap__qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appMap__qmllint_module: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/bin/qmllint /home/esis/Map_/Main.qml .rcc/qmllint/appMap__module.rsp || all_qmltyperegistrations appMap__qmltyperegistration
+build CMakeFiles/appMap__qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appMap__qmllint_module: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/bin/qmllint /home/esis/Map_/src/Main.qml /home/esis/Map_/components/PortMarker.qml /home/esis/Map_/components/ShipMarker.qml /home/esis/Map_/components/Dialogs.qml /home/esis/Map_/components/Sidebar.qml /home/esis/Map_/models/PortModel.qml /home/esis/Map_/models/ShipModel.qml .rcc/qmllint/appMap__module.rsp || all_qmltyperegistrations appMap__qmltyperegistration
   COMMAND = cd /home/esis/Map_ && /home/esis/Qt/6.9.1/gcc_64/bin/qmllint @/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmllint/appMap__module.rsp
 
 
@@ -389,7 +508,7 @@ build CMakeFiles/appMap__copy_qml | ${cmake_ninja_workdir}CMakeFiles/appMap__cop
 #############################################
 # Custom command for .qt/appMap__qml.txt
 
-build .qt/appMap__qml.txt | ${cmake_ninja_workdir}.qt/appMap__qml.txt: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake /home/esis/Map_/Main.qml
+build .qt/appMap__qml.txt | ${cmake_ninja_workdir}.qt/appMap__qml.txt: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake /home/esis/Map_/src/Main.qml /home/esis/Map_/components/PortMarker.qml /home/esis/Map_/components/ShipMarker.qml /home/esis/Map_/components/Dialogs.qml /home/esis/Map_/components/Sidebar.qml /home/esis/Map_/models/PortModel.qml /home/esis/Map_/models/ShipModel.qml
   COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/Tools/CMake/bin/cmake -DFILES_INFO_PATH=/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/appMap__qml.cmake -P /home/esis/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
   DESC = Copying appMap_ qml sources into build dir
   restat = 1
@@ -419,7 +538,7 @@ build CMakeFiles/module_appMap__aotstats_target | ${cmake_ninja_workdir}CMakeFil
 #############################################
 # Custom command for .rcc/qmlcache/module_appMap_.aotstats
 
-build .rcc/qmlcache/module_appMap_.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_appMap_.aotstats: CUSTOM_COMMAND .rcc/qmlcache/appMap__Main_qml.cpp.aotstats .rcc/qmlcache/module_appMap_.aotstatslist || appMap__qmltyperegistration
+build .rcc/qmlcache/module_appMap_.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_appMap_.aotstats: CUSTOM_COMMAND .rcc/qmlcache/appMap__src/Main_qml.cpp.aotstats .rcc/qmlcache/appMap__components/PortMarker_qml.cpp.aotstats .rcc/qmlcache/appMap__components/ShipMarker_qml.cpp.aotstats .rcc/qmlcache/appMap__components/Dialogs_qml.cpp.aotstats .rcc/qmlcache/appMap__components/Sidebar_qml.cpp.aotstats .rcc/qmlcache/appMap__models/PortModel_qml.cpp.aotstats .rcc/qmlcache/appMap__models/ShipModel_qml.cpp.aotstats .rcc/qmlcache/module_appMap_.aotstatslist || appMap__qmltyperegistration
   COMMAND = cd /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug && /home/esis/Qt/6.9.1/gcc_64/libexec/qmlaotstats aggregate /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/module_appMap_.aotstatslist /home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.rcc/qmlcache/module_appMap_.aotstats
   DESC = Generating .rcc/qmlcache/module_appMap_.aotstats
   restat = 1
@@ -450,7 +569,7 @@ build CMakeFiles/appMap__qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/appMap
 #############################################
 # Custom command for .qt/qml_imports/appMap__build.cmake
 
-build .qt/qml_imports/appMap__build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appMap__build.cmake: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/libexec/qmlimportscanner .qt/rcc/qmake_Map_.qrc .qt/rcc/appMap__raw_qml_0.qrc /home/esis/Map_/Main.qml
+build .qt/qml_imports/appMap__build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appMap__build.cmake: CUSTOM_COMMAND /home/esis/Qt/6.9.1/gcc_64/libexec/qmlimportscanner .qt/rcc/qmake_Map_.qrc .qt/rcc/appMap__raw_qml_0.qrc .qt/rcc/appMap__raw_qml_0_extra_qmldirs.qrc /home/esis/Map_/src/Main.qml /home/esis/Map_/components/PortMarker.qml /home/esis/Map_/components/ShipMarker.qml /home/esis/Map_/components/Dialogs.qml /home/esis/Map_/components/Sidebar.qml /home/esis/Map_/models/PortModel.qml /home/esis/Map_/models/ShipModel.qml
   COMMAND = cd /home/esis/Map_ && /home/esis/Qt/6.9.1/gcc_64/libexec/qmlimportscanner @/home/esis/Map_/build/Desktop_Qt_6_9_1-Debug/.qt/qml_imports/appMap__build.rsp
   DESC = Running qmlimportscanner for appMap_
   restat = 1

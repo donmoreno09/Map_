@@ -1,6 +1,12 @@
 <RCC>
   <qresource prefix="/qt/qml/Map_/">
-    <file alias="Main.qml">/home/esis/Map_/Main.qml</file>
+    <file alias="src/Main.qml">/home/esis/Map_/src/Main.qml</file>
+    <file alias="components/PortMarker.qml">/home/esis/Map_/components/PortMarker.qml</file>
+    <file alias="components/ShipMarker.qml">/home/esis/Map_/components/ShipMarker.qml</file>
+    <file alias="components/Dialogs.qml">/home/esis/Map_/components/Dialogs.qml</file>
+    <file alias="components/Sidebar.qml">/home/esis/Map_/components/Sidebar.qml</file>
+    <file alias="models/PortModel.qml">/home/esis/Map_/models/PortModel.qml</file>
+    <file alias="models/ShipModel.qml">/home/esis/Map_/models/ShipModel.qml</file>
   </qresource>
 </RCC>
 
